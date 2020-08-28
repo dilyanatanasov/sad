@@ -11,6 +11,10 @@ $result = $student->getAllStudents();
 <head>
     <title></title>
     <link rel='stylesheet' type='text/css' href='../style/studentDistribution.css'>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8d316c453c.js" crossorigin="anonymous"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -22,26 +26,30 @@ $result = $student->getAllStudents();
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <!-- Font Awesome -->
-    <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
 </head>
 <body>
     <div class='container'>
-        <h1>Student Assignment Distribution System</h1>
+        <h1 class="mt-4 mb-4">Student Assignment Distribution System</h1>
         <div class="form-group">
-            <label for="studentsList">Students List</label>
-
+            <label for="topicList">Add Topics</label>
+            <i class="fas fa-question float-right" data-toggle="tooltip" data-placement="top" title="Pass coma separated topics list to be uploaded"></i>
+            <textarea class="form-control" id="topicList" rows="3"></textarea>
+        </div>
+        <button class="btn btn-primary mb-4">Submit</button>
+        <div class="form-group">
+            <label for="studentsList">Add Students</label>
+            <i class="fas fa-question float-right" data-toggle="tooltip" data-placement="top" title="Pass a coma separated list of students or a single one to be uploaded"></i>
             <textarea class="form-control" id="studentsList" rows="3"></textarea>
         </div>
         <button class="btn btn-primary">Submit</button>
-        <table class="table mt-4">
+        <table class="table mt-2">
             <thead class="thead-light">
             <tr>
-                <th scope="col">#</th>
+                <th scope="col">Group</th>
                 <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Second</th>
+                <th scope="col">Third</th>
+                <th scope="col">Topic</th>
             </tr>
             </thead>
             <tbody>
@@ -50,17 +58,20 @@ $result = $student->getAllStudents();
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
+                <td>@mdo</td>
             </tr>
             <tr>
                 <th scope="row">2</th>
                 <td>Jacob</td>
                 <td>Thornton</td>
                 <td>@fat</td>
+                <td>@fat</td>
             </tr>
             <tr>
                 <th scope="row">3</th>
                 <td>Larry</td>
                 <td>the Bird</td>
+                <td>@twitter</td>
                 <td>@twitter</td>
             </tr>
             </tbody>
