@@ -23,18 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a84043e5-cddf-432f-84be-98745a0c45e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/BaseClass.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/StudentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/DB.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/DbStructure.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Student.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Topic.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/helper.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/html/studentDistribution.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/style/studentDistribution.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/studentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/studentsController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598383005635</updated>
       <workItem from="1598383006896" duration="16400000" />
-      <workItem from="1598901965921" duration="1735000" />
+      <workItem from="1598901965921" duration="2394000" />
     </task>
     <servers />
   </component>

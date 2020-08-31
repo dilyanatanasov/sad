@@ -5,56 +5,38 @@ class studentsController extends Controller
     {
         require(ROOT . 'Models/Student.php');
 
-        $tasks = new Student();
+        $students = new Student();
 
-        $d['tasks'] = $tasks->showAllTasks();
+        $d['students'] = $students->showAllStudents();
         $this->set($d);
         $this->render("index");
     }
 
     function create()
     {
-        if (isset($_POST["title"]))
+        if (isset($_POST["first_name"]) && isset($_POST["last_name"]) && isset($_POST["student_group"]))
         {
             require(ROOT . 'Models/Student.php');
 
-            $task= new Student();
+            $student= new Student();
 
-            if ($task->create($_POST["title"], $_POST["description"]))
+            if ($student->create($_POST["first_name"], $_POST["last_name"], $_POST["student_group"]))
             {
-                header("Location: " . WEBROOT . "tasks/index");
+                header("Location: " . WEBROOT . "students/index");
             }
         }
 
         $this->render("create");
     }
 
-    function edit($id)
-    {
-        require(ROOT . 'Models/Student.php');
-        $task= new Student();
-
-        $d["task"] = $task->showTask($id);
-
-        if (isset($_POST["title"]))
-        {
-            if ($task->edit($id, $_POST["title"], $_POST["description"]))
-            {
-                header("Location: " . WEBROOT . "tasks/index");
-            }
-        }
-        $this->set($d);
-        $this->render("edit");
-    }
-
     function delete($id)
     {
         require(ROOT . 'Models/Student.php');
 
-        $task = new Student();
-        if ($task->delete($id))
+        $student = new Student();
+        if ($student->delete($id))
         {
-            header("Location: " . WEBROOT . "tasks/index");
+            header("Location: " . WEBROOT . "students/index");
         }
     }
 }
