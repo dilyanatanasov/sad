@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84043e5-cddf-432f-84be-98745a0c45e9" name="Default Changelist" comment="" />
+    <list default="true" id="a84043e5-cddf-432f-84be-98745a0c45e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/BaseClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/StudentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DB.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/DbStructure.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Student.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Topic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/html/studentDistribution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/style/studentDistribution.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +51,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gbUuCqn5EW86trJrcwiNwuZwD5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,18 +82,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598383005635</updated>
-      <workItem from="1598383006896" duration="16013000" />
+      <workItem from="1598383006896" duration="16400000" />
+      <workItem from="1598901965921" duration="1735000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="589" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598383658547">
       <screen x="68" y="27" width="1852" height="1053" />
     </state>
     <state x="589" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/68.27.1852.1053@68.27.1852.1053" timestamp="1598383658547" />
+    <state x="68" y="27" width="1150" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598903361337">
+      <screen x="68" y="27" width="1852" height="1053" />
+    </state>
+    <state x="68" y="27" width="1150" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/68.27.1852.1053@68.27.1852.1053" timestamp="1598903361337" />
+    <state x="168" y="127" width="1652" height="853" key="DiffContextDialog" timestamp="1598902921818">
+      <screen x="68" y="27" width="1852" height="1053" />
+    </state>
+    <state x="168" y="127" width="1652" height="853" key="DiffContextDialog/68.27.1852.1053@68.27.1852.1053" timestamp="1598902921818" />
     <state width="595" height="275" key="GridCell.Tab.0.bottom" timestamp="1598460451067">
       <screen x="68" y="27" width="1852" height="1053" />
     </state>
@@ -88,9 +146,13 @@
       <screen x="68" y="27" width="1852" height="1053" />
     </state>
     <state x="845" y="294" width="287" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/68.27.1852.1053@68.27.1852.1053" timestamp="1598417043626" />
-    <state x="657" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598460312456">
+    <state x="685" y="162" width="618" height="783" key="find.popup" timestamp="1598903515939">
       <screen x="68" y="27" width="1852" height="1053" />
     </state>
-    <state x="657" y="259" width="672" height="678" key="search.everywhere.popup/68.27.1852.1053@68.27.1852.1053" timestamp="1598460312456" />
+    <state x="685" y="162" width="618" height="783" key="find.popup/68.27.1852.1053@68.27.1852.1053" timestamp="1598903515939" />
+    <state x="657" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598903502487">
+      <screen x="68" y="27" width="1852" height="1053" />
+    </state>
+    <state x="657" y="259" width="672" height="678" key="search.everywhere.popup/68.27.1852.1053@68.27.1852.1053" timestamp="1598903502487" />
   </component>
 </project>
